@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JENY PANSURIYA | PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: #1a5638;
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .left {
+        font-size: 1.2rem;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: #1e3b2e;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: wheat;
+      }
+
+      nav ul li a:hover {
+        font-size: 1.02rem;
+        color: whitesmoke;
+      }
+
+      .left {
+        font-size: 1.5rem;
+      }
+
+      .firstsec {
+        display: flex;
+        justify-content: space-around;
+        margin: 115px 0;
+      }
+
+      .firstsec > div {
+        width: 30%;
+        /* margin-top: 30px; */
+      }
+
+      .leftsection {
+        font-size: 2.8rem;
+        margin-top: 40px;
+      }
+
+      .rightsection img {
+        width: 80%;
+        /* margin: 50px 0; */
+      }
+
+      .purple {
+        color: wheat;
+      }
+      #element {
+        color: wheat;
+      }
+      main hr{
+        border: 0;
+        margin: 60px 90px;
+        margin-top: 100px;
+        background: #05331e;
+        height: 3px;
+      }
+      .secondsection{
+        max-width: 80vw;
+        margin: auto;
+      }
+      .secondsection h1{
+        font-size: 1.9rem;
+        height: 80vh;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">JENY'S PORTFOLIO</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="/">ABOUT</a></li>
+            <li><a href="/">PROJECTS</a></li>
+            <li><a href="/">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsec">
+        <div class="leftsection">
+          HI , MY NAME IS <span class="purple">JENY</span>
+          <div>and i am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr>
+      <section class="secondsection">
+            <span class="text-gray">What I Have Done..</span>
+            <h1>Work Experience</h1>
+            
+      </section>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Frontend Developer!", "Frontend Developer!"],
+        typeSpeed: 50,
+      });
+    </script>
+    
+  </body>
+</html>

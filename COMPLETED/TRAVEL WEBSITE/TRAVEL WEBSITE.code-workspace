@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../THE WEB DEVLOPER BOOTCAMP"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "THE WEB DEVLOPER BOOTCAMP"
+	}
+}
